@@ -1,6 +1,8 @@
 package com.jwan.algorithm.character;
 
 /**
+ * 两个字符串包含的字符是否完全相同?
+ *
  * s = "anagram", t = "nagaram", return true.
  * s = "rat", t = "car", return false.
  * 可以用 HashMap 来映射字符与出现次数，然后比较两个字符串出现的字符数量是否相同。
